@@ -1,0 +1,55 @@
+
+
+
+
+
+
+[Datasheet Preferences]
+Column Formatting=CCCCCCCCCCC
+Column Widths=150,60,200,200,200,200,200,200,200,200,200,
+Fixed Columns=2
+Fixed Rows=3
+Vert Split=300
+Horz Split=300
+Show All Test Labels=1
+[Documentation Block]
+DATA SHEET=LAB8_KSAREEN_LNGUYEN.pds
+PRODUCT=LAB8_KSAREEN_LNGUYEN
+REVISION=1.00
+ORIG. DATE=03/31/2023
+User Flag 1=
+User Flag 2=
+User Flag 3=
+User Flag 4=
+Comment=
+[Binning Block]
+1,,"P","Pass"
+2,,"F","Fail"
+3,,"A","Alarm"
+[Datasheet Variable Map]
+"integer","TestNmbr","Test Number"
+"integer","SubTestNmbr","Subtest Number"
+"character","DLogDesc","Datalog Description"
+"double","LoLim","Low Limit"
+"double","HiLim","High Limit"
+"double","DFormat","Data Format"
+"character","Units","Units"
+"character","LoFBin","Low Fail Bin"
+"character","HiFBin","High Fail Bin"
+[LabelUserTest]
+Function=UserTest
+"",,,"",,,,"","",""
+[FallingCap]
+Function=FallingCap
+"",100,1,"Falling Capacitance ",37.6,56.4,9.3,"uF","2","3"
+[RisingCap]
+Function=RisingCap
+"",200,1,"Rising Capacitance",37.6,56.4,9.3,"uF","2","3"
+[Resistance]
+Function=Resistance
+"",300,1,"Resistance ",950,1050,8.3,"Ohms","2","3"
+[Test Order]
+LabelUserTest=0,""
+FallingCap=1,""
+RisingCap=1,""
+Resistance=1,""
